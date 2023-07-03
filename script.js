@@ -39,7 +39,7 @@ function finalizar() {
     }else {
         let tot = valores.length
         let maior = valores[0]
-        let manor = valores[0]
+        let menor = valores[0]
         let soma = 0
         let media = 0
         for(let pos in valores) {
@@ -53,7 +53,7 @@ function finalizar() {
         res.innerHTML = ''
         res.innerHTML += `<p>Ao todo, temos ${tot} números cadastrados.</p>`
         res.innerHTML += `<p>O maior valor informado foi ${maior}.</p>`
-        res.innerHTML += `<p>o menor valor informado foi ${manor}.</p>`
+        res.innerHTML += `<p>o menor valor informado foi ${menor}.</p>`
         res.innerHTML += `<p>Somando os valores, temos ${soma}.</p>`
         res.innerHTML += `<p>A média dos valores digitados é ${media}.</p>`
     }
